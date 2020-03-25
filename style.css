@@ -1,0 +1,194 @@
+/*header*/
+#header{
+    color: blue;
+    font-size: x-large;
+}
+/*body fonts*/
+Body{
+    
+    font-family: 'Roboto', sans-serif;
+}
+/*Style h1*/
+h1{
+    
+    font-size: 86px;
+    color: blue;
+    font-weight: normal;
+    letter-spacing: -13px;
+    padding-left: 37%;
+
+}
+/*style the nav*/
+nav{
+    padding-top:1px;
+
+    
+}
+
+
+nav ul {
+    
+    list-style-type: none;
+    float:right;
+    padding-right: 60px;
+    
+    
+}
+ /*style the li and a */
+
+ li {
+    display: inline;
+    padding: 0;
+    margin: 0;
+    padding-right: 10px;
+}
+li a{
+    display: inline-block;
+    text-decoration: none;
+    
+}
+a{
+    text-decoration: none;
+}
+/*style the link hover*/
+a:hover{
+    text-decoration: underline;
+}
+/*style the google icon*/
+.material-icons.apps{
+    color: blue;
+    font-size: 20px;
+    padding-top: 40px;
+    
+}
+/*style the form and searchbox*/
+form.searchbox{
+    align-content: center;
+    padding-left: 30%;
+}
+
+/*style the search field*/
+form.searchbox input[type=text]{
+    padding: 10px;
+    font-size: 18px;
+    width: 60%;
+    float: left;
+    border:1px solid rgb(185, 182, 182);
+    border-radius: 22px;
+    outline: none;
+    background-color:white;
+    margin-bottom: 10px;
+    
+}
+/*style the paragraphs and buttons*/
+
+p{
+    text-align: center;
+    padding-top: 2%;
+    font-size: 13px;
+}
+
+
+button{
+    padding: 10px;
+    border-radius: 4px;
+    margin-top: 10px;
+    border: none;
+    
+}
+button a{
+    text-decoration: none;
+    
+}
+button :hover{
+   text-decoration: none;
+   border: black 4px;
+   
+}
+
+/*style the footer*/
+
+footer{
+    padding-bottom: 0px;
+    font-size: 13px;
+    background-color: rgb(255, 251, 251);
+    border-style: solid 8px;
+    border-color: rgb(223, 220, 220);
+    border-width: 100%;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+
+
+#country-name{
+    float: left;
+    padding-left: 12px;
+    color: slategray;
+}
+ 
+    
+#left-footer{
+    
+    padding-left: 15px;
+    border-top: 18px;
+    border-color: slategray;
+    display: inline;
+    padding: 0;
+    margin: 0;
+
+   
+    
+}
+#left-footer li{
+    padding: 0;
+    margin: 0;
+    word-spacing: 10px;
+
+
+
+}
+#right-footer {
+   float: right;
+   
+   
+}
+/*media queries*/
+@media(max-width:500px){
+    
+ body{
+     font-size: 40px;
+ }
+
+    nav ul {
+        font-size: 13px;
+        float: right;
+    }
+    nav ul li {
+         
+        display: inline;
+        margin: 0;
+        
+        padding-top: 5px
+
+    }
+    nav ul li a{
+        display: inline-block;
+        
+    }
+
+    h1{
+        text-align: center;
+        font-size: 55px;
+        letter-spacing: -6px;
+        padding-top: 40px;
+        padding-right: 115px;
+       
+    }
+    form.searchbox{
+        align-content: center;
+        padding-left: 100px;
+        width: 100%;
+
+    }
+
+}
